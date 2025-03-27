@@ -1,7 +1,15 @@
-<!-- Basic List with Links -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Shortcut method</title>
+</head>
+<body>
+    <!-- Basic List with Links -->
 
 
- ul>li*5>a[href="#"]{link$}
+ Note: ul>li*5>a[href="#"]{link$}
  <ul>
     <li><a href="#">link1</a></li>
     <li><a href="#">link2</a></li>
@@ -14,7 +22,7 @@
 
  <!-- Simple Grid & Card Structure -->
 
- div.container>div.card*5>h2{Title}+img[src="image.jpg" alt="$"]+p{lorem5}+button{explore more}
+ Note: div.container>div.card*5>h2{Title}+img[src="image.jpg" alt="$"]+p{lorem5}+button{explore more}
 
  <div class="container">
     <div class="card">
@@ -51,7 +59,7 @@
 
  <!-- Form with Inputs -->
 
- form>lable{neme}+input[type="text"]+lable{Email}+input[type="email"]+button:submit{submite}
+ Note: form>lable{neme}+input[type="text"]+lable{Email}+input[type="email"]+button:submit{submite}
  <form action="">
     <lable>neme</lable>
     <input type="text">
@@ -72,3 +80,29 @@
     </ul>
 </nav>
 
+ <!--  div#card.container.p-2.m-5 -->
+<div id="card" class="container p-2 m-5"></div>
+
+<!-- Image -->
+
+<img src="image.jpg" alt="Image">
+
+<div class="foo"></div>
+<div id="container"></div>
+<!-- explain shortcut -->
+
+. = Class Selector 
+# = ID Selector
+* = Multiplication 
+> = Child Selector 
++ = Sibling Selector 
+[] = Attribute Selector 
+{} = Contain
+$ = Text Placeholder 
+() = Grouping
+
+
+
+
+</body>
+</html>
